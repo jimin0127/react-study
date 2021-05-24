@@ -24,4 +24,5 @@
 // import './component-advanced/context-api-theme-context'
 // import './component-styling/using-css'
 // import './component-styling/using-css-module'
-import './component-styling/using-css-module2'
+// import './component-styling/using-css-module2'
+import './component-styling/using-styled-components'
