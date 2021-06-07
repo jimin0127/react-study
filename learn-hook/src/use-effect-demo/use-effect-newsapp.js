@@ -29,18 +29,16 @@ const Search = (props) => {
 const NewsApp = (props) => {
     const [articles, setArticles] = useState([])
     const [loading, setLoading] = useState(true)
-    const [text, setText] = useState('비트코인')
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState('비트코인')
 
     const apiKey = '630bb3bf74c842db83b3e8e4d111ef07'
 
     useEffect(() => {
         // 초기에 한 번만 API를 통해서 뉴스 데이터 읽어오기
-        fetch(`http://newsapi.org/v2/everything?apiKey=${apiKey}&q=${text}`)
+        fetch(`http://newsapi.org/v2/everything?apiKey=${apiKey}&q=${search}`)
             .then(res => res.json())
             .then(data => {
                 // 데이터 설정 및 로딩 상태 갱신
-                console.log(`${text}`)
                 setArticles(data.articles)
                 setLoading(false)
             })

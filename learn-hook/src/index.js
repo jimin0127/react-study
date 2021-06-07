@@ -10,4 +10,6 @@
 // import './use-effect-demo/use-effect-unmount-deps'
 // import './use-effect-demo/use-effect-with-dom'
 // import './use-effect-demo/use-effect-fetch-api'
-import './use-effect-demo/use-effect-newsapp'
+// import './use-effect-demo/use-effect-newsapp'
+// import './use-effect-demo/news-app'
+import './use-ref-demo/use-ref-practice-form'
