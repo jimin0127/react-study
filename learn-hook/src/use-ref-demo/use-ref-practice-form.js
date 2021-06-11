@@ -15,7 +15,7 @@ function Form() {
     const passwordInputRef = useRef()
 
     const handleSubmit = e => {
-        e.preventDefault()
+        e.preventDefault() // submit인데 주소를 넘기는 것을 막음
         console.log(nameInputRef.current.value, emailInputRef.current.value, passwordInputRef.current.value)
         // 3. Submit 버튼을 누르면 콘솔에 모든 input 요소의 값을 출력하도록 하기
     }
