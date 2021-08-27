@@ -38,7 +38,7 @@ const NewsList = ({articles}) => {
             articles.map((value, idx) => {
                 return (<li key={idx}>
                     <NewsItem article={value} />
-                </li>)
+                </li>
             })
         }
     </ul>

@@ -27,4 +27,5 @@
 // import './component-styling/using-css-module2'
 // import './component-styling/using-styled-components'
 // import './make-accordion-3115-leejimin'
-import './make-accordion-hook'
+// import './make-accordion-hook'
+import './make-wiki-search-app-3115-leejimin'
